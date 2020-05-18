@@ -28,7 +28,6 @@ public class EstudianteDAOImpl implements EstudianteDAO{
 
 	@Override
 	public void save(Estudiante estudiante) throws DataAccessException {
-		// TODO Auto-generated method stub
 		entityManager.persist(estudiante);
 	}
 	
